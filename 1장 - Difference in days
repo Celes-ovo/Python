@@ -1,0 +1,36 @@
+"""
+def daydiff(day1 : int, day2 : int) -> int :
+	return day2 - day1
+
+
+def daydiff(day1 : int, day2 : int) :
+	return day2 - day1
+
+	int의 사용 의미는?
+"""
+
+def birthday_date(a, b) :
+
+        if ((b-a)%7 == 0) :
+                return "월요일입니다."
+
+        elif ((b-a)%7 == 1) :
+                return "화요일입니다."
+
+        elif (b-a)%7 == 2 :
+                return "수요일입니다."
+
+        elif (b-a)%7 == 3 :
+                return "목요일입니다."
+
+        elif (b-a)%7 == 4 :
+                return "금요일입니다."
+
+        elif (b-a)%7 == 5 :
+                return "토요일입니다."
+
+        elif (b-a)%7 == 6 :
+                return "일요일입니다."
+
+        else :
+                return "잘못된 값을 입력하였습니다."
